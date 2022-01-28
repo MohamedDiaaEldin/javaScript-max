@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Section 14</title>
+    <script src="script.js" defer></script>
+    <style>
+        
+        button{
+            padding: 15px;
+        }
+        div{
+            width: 300;
+            height: 300;
+            border: 2px solid black;
+        }
+
+    
+        li{
+            border: 1px solid black;  
+            padding: 15px;                      
+        }
+        .highlight{
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Section 14</h1>
+    <hr>
+
+    <h2>event object</h2>
+    <button id="eventObjectBtn">console click object</button>
+    <button id="hoverBtn">houver over me</button>
+    <hr>
+    
+    <h2>listen form events</h2>
+    <form action="" id="firstForm">
+        <label for="title" ></label>
+        <input type="text" id="title">
+        <button  type="submit">Submit</button>
+    </form>
+
+    <h2>propagation</h2>
+    <div id="propagationDiv" >
+        <button id="propagationBtn">propagation</button>
+    </div>
+
+    <h2>delegation</h2>
+    <ul class="delList">
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+    </ul>
+
+    <h2>drag and drop</h2>
+    <ul class="dragList">
+        <li draggable="true" id="1">item1</li>
+        <li draggable="true" id="2">item2</li>
+        <li draggable="true" id="4">item3</li>
+        <li draggable="true" id="4">item4</li>
+    </ul>
+    <h3>destination</h3>
+    <ul class="destDragList">
+        <li>item00</li>
+    </ul>
+</body>
+</html>

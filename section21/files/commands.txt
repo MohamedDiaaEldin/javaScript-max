@@ -1,0 +1,9 @@
+// create local package system
+nmp  init 
+
+// install new package localley 
+// --save-dev for development only
+npm install --save-dev package_name  --> (eslint)
+
+/// run a script inside package.json
+npm run script_name --> build or webpack-sed-server (for live server)
